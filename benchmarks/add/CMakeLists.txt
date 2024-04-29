@@ -15,6 +15,7 @@ project(zk-benchmarks LANGUAGES CUDA CXX)
 #set(CMAKE_CUDA_FLAGS_DEBUG "${CMAKE_CUDA_FLAGS_DEBUG} -g -G -O0")
 
 include_directories("/icicle")
+include_directories("/icicle/icicle")
 include_directories("/opt/benchmark/include")
 
 add_executable(
