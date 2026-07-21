@@ -1,7 +1,7 @@
 # Make sure NVIDIA Container Toolkit is installed on your host
 
 # Use the specified base image
-FROM nvidia/cuda:12.2.0-devel-ubuntu22.04
+FROM nvidia/cuda:13.3.0-devel-ubuntu22.04
 
 # Update and install dependencies
 RUN apt-get update && apt-get install -y \
