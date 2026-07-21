@@ -6,7 +6,7 @@ edition = "2021"
 [dependencies]
 zkbench = { path = "../zkbench" }
 serde_json = "1.0"
-git2 = "0.17"
+git2 = "0.21"
 
 [dev-dependencies]
 criterion = "0.4"
